@@ -198,7 +198,7 @@ const ProjectFetcherHOC = function (WrappedComponent) {
         vm: PropTypes.instanceOf(VM)
     };
     ProjectFetcherComponent.defaultProps = {
-        assetHost: 'https://assets.scratch.mit.edu',
+        assetHost: 'https://github.com/open-scratch/scratch-asset-utils/tree/master/scratch3/',
         projectHost: 'https://projects.scratch.mit.edu'
     };
 
